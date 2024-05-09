@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Dancing+Script:wght@400..700&display=swap');
+*{
+    margin: 0%;
+    color: rgb(255, 255, 255);
+}
+html, body{
+    min-height: 100vh;
+}
+header{
+    background-image: linear-gradient(to right, rgb(211, 247, 81), rgb(88, 184, 88), rgb(248, 76, 76));
+    padding: 45px;
+    text-align: center;
+}
+h1{
+    font-variant: small-caps;
+}
+a{
+    color: white;
+}
+pre{
+    white-space: pre-line;
+    font-family: "Dancing Script", cursive;
+    color: black;
+    font-size: xx-large;
+    margin: 35px;
+    margin-top: 8%;
+    margin-left: 100px;
+    margin-bottom: 8%;
+    line-height: 1.5em;
+}
+div.img1{
+    display: flex;
+    align-items: center;
+    justify-content: left center;
+    background-color: black;
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-position: right center;
+    height: 120vh;
+    background-attachment: fixed;
+}
+pre.textimg1{
+    font-family: "Dancing Script", cursive;
+    color: rgb(215, 253, 0);
+    font-size: xx-large;
+    background-color: rgba(55, 107, 2, 0.781);
+    padding: 35px;
+    border-radius: 12px;
+    margin-left: 68px;
+}
+div.img2{
+    display: flex;
+    align-items: center;
+    justify-content: left center;
+    background-color: black;
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    height: 120vh;
+    background-attachment: fixed;
+}
+pre.textimg2{
+    font-family: "Dancing Script", cursive;
+    color: black;
+    font-size: xx-large;
+    background-color: rgba(220, 224, 215, 0.767);
+    padding: 35px;
+    border-radius: 12px;
+    margin-left: 68px;
+}
+footer{
+    background-image: linear-gradient(to right, rgb(211, 247, 81), rgb(88, 184, 88), rgb(248, 76, 76));
+    text-align: center;
+    padding: 8px;
+}
